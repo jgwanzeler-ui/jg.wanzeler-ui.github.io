@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonilton Wanzeler | Tech, IA e Negócios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #e5e7eb;
+        }
+        .neon-text {
+            color: #00ff88;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
+        .neon-border {
+            border: 2px solid #00ff88;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            border-color: #00ff88;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.1);
+        }
+        .btn-primary {
+            background-color: #00ff88;
+            color: #000;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #00cc6a;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+        }
+        .btn-outline {
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            transition: all 0.3s ease;
+        }
+        .btn-outline:hover {
+            background-color: rgba(0, 255, 136, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-4">
+
+    <!-- CABEÇALHO / PERFIL -->
+    <header class="w-full max-w-lg text-center mt-8 mb-6">
+        <!-- Substitua o link abaixo pela sua foto real -->
+        <img src="PERFIL_JONILTON.png" alt="Jonilton Wanzeler" class="w-32 h-32 rounded-full mx-auto object-cover neon-border mb-4">
+        
+        <h1 class="text-3xl font-bold text-white mb-1">Jonilton Wanzeler</h1>
+        <p class="text-sm font-semibold neon-text tracking-wider uppercase mb-3">Desenvolvedor • Empresário • Criador de Conteúdo</p>
+        
+        <p class="text-gray-400 text-sm leading-relaxed px-4">
+            Transformo ideias em negócios digitais. Escrevo sobre <span class="text-white">Tecnologia, IA, Negócios e Inovação</span>.
+        </p>
+    </header>
+
+    <!-- BOTÕES DE CONTATO RÁPIDO -->
+    <section class="w-full max-w-lg grid grid-cols-2 gap-3 mb-8">
+        <!-- Substitua os links '#' pelos seus links reais -->
+        <a href="https://wa.me/5591992341991" target="_blank" class="glass-card rounded-xl p-3 flex items-center justify-center gap-2 hover:text-white">
+            <span class="text-green-400 text-xl">💬</span> <span class="text-sm">WhatsApp</span>
+        </a>
+        <a href="mailto:jg.wanzeler@gmail.com" class="glass-card rounded-xl p-3 flex items-center justify-center gap-2 hover:text-white">
+            <span class="text-blue-400 text-xl">✉️</span> <span class="text-sm">E-mail</span>
+        </a>
+        <a href="https://instagram.com/joniltonwanzeleroficial" target="_blank" class="glass-card rounded-xl p-3 flex items-center justify-center gap-2 hover:text-white">
+            <span class="text-pink-500 text-xl">📸</span> <span class="text-sm">Instagram</span>
+        </a>
+        <a href="https://youtube.com/@joniltonwanzeleroficial" target="_blank" class="glass-card rounded-xl p-3 flex items-center justify-center gap-2 hover:text-white">
+            <span class="text-red-500 text-xl">▶️</span> <span class="text-sm">YouTube</span>
+        </a>
+    </section>
+
+    <!-- SEÇÃO SOBRE (AUTORIDADE) -->
+    <section class="w-full max-w-lg mb-8">
+        <div class="glass-card rounded-2xl p-6">
+            <h2 class="text-xl font-bold text-white mb-3 border-b border-gray-700 pb-2">Sobre Mim</h2>
+            <p class="text-gray-300 text-sm leading-relaxed">
+                Na busca de soluções de problemas no desenvolvimento de software e gestão de negócios, minha missão é ajudar empresas e pessoas a navegarem na era da Inteligência Artificial. 
+                <br><br>
+                Acredito que a tecnologia deve ser uma alavanca para resultados reais. Aqui você encontrará minha visão sobre o mercado e outros temas, dicas de inovação e como aplicar IA de forma estratégica.
+            </p>
+            <!-- Botão para seu site principal -->
+            <a href="https://seu-site.com" target="_blank" class="btn-primary inline-block mt-4 px-6 py-2 rounded-lg text-sm">Conhecer meu Site</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO NEGÓCIOS (PROSPECÇÃO) -->
+    <section class="w-full max-w-lg mb-8">
+        <div class="glass-card rounded-2xl p-6 border-l-4 border-l-green-400">
+            <h2 class="text-xl font-bold text-white mb-2">🚀 Meu Negócio</h2>
+            <p class="text-gray-400 text-sm mb-4">Soluções em Tecnologia e IA para empresas que querem escalar.</p>
+            <p class="text-gray-300 text-sm mb-4">
+                Ofereço consultoria e desenvolvimento de soluções personalizadas. Se você busca inovação para o seu negócio, vamos conversar.
+            </p>
+            <a href="https://wa.me/5591992341991" target="_blank" class="btn-outline inline-block px-6 py-2 rounded-lg text-sm">Falar sobre Negócios</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO OPINIÕES / INSIGHTS -->
+    <section class="w-full max-w-lg mb-8">
+        <h2 class="text-xl font-bold text-white mb-4">Últimos Insights</h2>
+        
+        <!-- Card de Opinião 1 -->
+        <div class="glass-card rounded-xl p-4 mb-3">
+            <p class="text-xs text-green-400 mb-1">Hoje • IA & Negócios</p>
+            <p class="text-gray-300 text-sm">"A IA não vai substituir gestores, mas gestores que usam IA vão substituir os que não usam. A produtividade é a nova vantagem competitiva."</p>
+        </div>
+
+        <!-- Card de Opinião 2 -->
+        <div class="glass-card rounded-xl p-4 mb-3">
+            <p class="text-xs text-green-400 mb-1">Ontem • Tecnologia</p>
+            <p class="text-gray-300 text-sm">"Desenvolver software hoje é sobre orquestrar ferramentas. O código puro está se tornando commodity, a visão de negócio é o diferencial."</p>
+        </div>
+        
+        <a href="#" class="text-sm text-green-400 hover:text-green-300 block text-center mt-2">Ver todos os insights &rarr;</a>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="w-full max-w-lg text-center mt-4 mb-8">
+        <div class="flex justify-center gap-4 mb-4">
+            <a href="#" class="text-gray-500 hover:text-white text-sm">Telegram</a>
+            <a href="#" class="text-gray-500 hover:text-white text-sm">Copiar Link</a>
+        </div>
+        <p class="text-xs text-gray-600">© 2026 Jonilton Wanzeler. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
